@@ -1,0 +1,9 @@
+---
+applications:
+- name: playtodos
+  framework: play
+  runtime: java
+  memory: 256M
+  instances: 1
+  url: playtodos.${target-base}
+  path: .
